@@ -50,13 +50,11 @@ p {
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
       position: fixed;
-      top: 185px; /* Height of navbar */
+      top:100px; /* Height of navbar */
       bottom: 0;
       left: 100%;
       width: 100%;
-      padding-right: 50px;
-      padding-left: 60px;
-      padding-top: 50px;
+      padding: 50px 50px 0 50px;
       overflow-y: auto;
       visibility: hidden;
       background-color: var(--dark-grey);
@@ -66,9 +64,11 @@ p {
       visibility: visible;
       transform: translateX(-100%);
     }
+
     .offcanvas-collapse.open .nav-link {
-        font-size: xx-large;
-    }
+      font-size: xx-large;
+      text-align: center;
+  }
     .offcanvas-collapse.open .nav-link:hover {
         background-color: var(--white);
         color: var(--dark-grey) !important;
@@ -85,6 +85,9 @@ p {
 
 .primary-nav{
     background-color: transparent;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
 }
 
 .navbar-brand{
@@ -95,11 +98,27 @@ p {
   margin-right: 50px;
 }
 
+.shrink {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  max-height: 100px !important;
+}
+
+.shrink .navbar-brand{
+  margin: 20px 0px 20px 20px;
+}
+
+.shrink .navbar-toggler{
+  margin-right: 20px;
+}
+
 /* End Navbar */
 
 /* Welcome Screen */
 #welcome-screen{
     background: url(pictures/pexels-adrien-olichon-2387793.jpg);
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10px;
