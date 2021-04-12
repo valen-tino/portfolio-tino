@@ -15,10 +15,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top primary-nav" aria-label="Main navigation" id="primary-nav">
+        <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation" id="primary-nav">
                 <div class="container">
                     <img class="navbar-brand" src="assets/logo/tinologo.svg" alt="tino" height="70px">
-                    <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
                         <a style="color: white;"><img src="assets/icons/list.svg"></a>
                     </button>
 
@@ -148,14 +148,14 @@
                               <span style="height:98%" title="HTML" class="html"></span>
                             </li>
                             <li>
-                              <span style="height:70%" title="CSS" class="css"></span>
+                              <span style="height:86%" title="CSS" class="css"></span>
                             </li>
                             <li>
-                              <span style="height:62%" title="Java
+                              <span style="height:70%" title="Java
                                                                     Script" class="js"></span>
                             </li>
                             <li>
-                              <span style="height:71%" title="Mysqli" class="mysqli"></span>
+                              <span style="height:63%" title="Mysqli" class="mysqli"></span>
                             </li>
                             <li>
                                 <span style="height:85%" title="Figma" class="figma"></span>
@@ -193,7 +193,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="col-md">
-                        <img src="assets/pictures/majesalon.svg" alt="majesalon" class="work">
+                        <img src="assets/pictures/majesalon.svg" alt="majesalon" class="work" >
                     </div>
                     <div class="col-md">
                     <h2 id="work-title2">Maje Salon</h2>
@@ -284,9 +284,10 @@
                 </div>
             </div>
             <div class="row justify-content-center text-center">
-                <div class="col-md-4"><a class="nav-link" href="https://www.instagram.com/tino.2093"><i class="bi bi-instagram"></i>  tino.2089</a></div>
-                <div class="col-md-4"><a class="nav-link" href="mailto:jehaut23@gmail.com"><i class="bi bi-envelope"></i>  jehaut23@gmail.com</a></div>
-                <div class="col-md-4"><a class="nav-link" href="https://codepen.io/vaze2077"><i class="bi bi-code-slash"></i> vaze2077</a></div>
+                <div class="col-sm-3"><a class="nav-link" href="https://www.instagram.com/tino.2093"><i class="bi bi-instagram"></i>  tino.2089</a></div>
+                <div class="col-sm-3"><a class="nav-link" href="mailto:jehaut23@gmail.com"><i class="bi bi-envelope"></i>  jehaut23@gmail.com</a></div>
+                <div class="col-sm-3"><a class="nav-link" href="https://codepen.io/vaze2077"><i class="bi bi-code-slash"></i> vaze2077</a></div>
+                <div class="col-sm-3"><a class="nav-link" href="https://github.com/valen-tino"><i class="bi bi-github"></i> valen-tino</a></div>
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-md-12" id="ending">Made with ❤ from Indonesia</div>
@@ -304,8 +305,10 @@
     window.addEventListener('scroll', function () {
       if (window.pageYOffset > 500) {
         nav.classList.add('bg-dark', 'shadow');
+        nav.classList.add('shrink');
       } else {
         nav.classList.remove('bg-dark', 'shadow');
+        nav.classList.remove('shrink');
       }
     });
   </script>
