@@ -130,7 +130,17 @@ p {
     overflow: hidden;
     z-index: 1;
   }
-  
+
+  .bounce {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce { 
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+  }
 /* End Welcome Screen */
 
 /* About Me */
