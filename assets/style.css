@@ -79,6 +79,28 @@ p {
 
 /* End Off Canvas */
 
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--semi-light-grey); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* End Scrollbar */
+
 /* Navbar */
 .nav-link {
     color: #fff !important;
