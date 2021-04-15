@@ -152,7 +152,7 @@ p {
 }
 
 img.myface{
-    height: 800px;
+    height: 100vh;
     padding:50px 0px 50px 110px;
     align-content: center;
 }
