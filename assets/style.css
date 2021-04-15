@@ -361,9 +361,14 @@ h1.work{
 
 /* Footer */
 footer{
-    background-color: var(--dark-grey);
+    /* background-color: var(--dark-grey); */
+    background: url(pictures/pexels-adrien-olichon-2387793.jpg);
     padding-top: 14vh;
     margin-top: -7vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer img{
