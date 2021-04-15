@@ -54,9 +54,9 @@
     }
 
     img.myface{
-        height: 565px;
+        height: 600px;
         padding:50px 0px 50px 110px;
-        align-content: center;
+        align-content: right;
     }
 
     img.work{
