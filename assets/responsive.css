@@ -34,7 +34,7 @@
   }
 
   img.myface{
-    height: 100vh;
+    height: 685px;
     padding:50px 0px 50px 110px;
     vertical-align: middle;
     align-content: center;
@@ -54,7 +54,7 @@
     }
 
     img.myface{
-        height: 100vh;
+        height: 600px;
         padding:50px 0px 50px 110px;
         align-content: right;
     }
