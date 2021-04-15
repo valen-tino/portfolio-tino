@@ -46,6 +46,8 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
+
+
 /* Off Canvas */
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
@@ -114,6 +116,8 @@ p {
 
 /* End Navbar */
 
+
+
 /* Welcome Screen */
 #welcome-screen{
     background: url(pictures/pexels-adrien-olichon-2387793.jpg);
@@ -122,8 +126,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10px;
+    margin-bottom: -9vh;
 }
-
 
 .welcome-main {
     height: 750px;
@@ -146,9 +150,23 @@ p {
 /* End Welcome Screen */
 
 /* About Me */
-#about-me{
-    background-color: var(--semi-light-grey);
-    padding-bottom: 60px;
+#about-me {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+}
+
+#about-me:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--semi-light-grey);
+  transform: skewY(4deg);
 }
 
 img.myface{
@@ -259,13 +277,15 @@ p.mydescription{
 
 /* Work */
 #work{
+    margin-top: -8vh;
     background-color: var(--dark-grey);
-    padding-bottom: 60px;
+    margin-bottom: -9vh;
+    padding-bottom: 16vh;
 }
 
 h1.work{
     font-size: 48px;
-    padding: 60px 0px 60px 0px;
+    padding: 100px 0px 60px 0px;
     color: var(--semi-light-grey);
 }
 
@@ -302,14 +322,27 @@ h1.work{
   box-shadow: 3px 4px 10px 0px var(--white);
   color: var(--black);
 }
-
-
-
 /* End Work */
 
 /* Contact Us */
-#contactus{
-    background-color: var(--semi-light-grey);
+#contactus {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+}
+
+#contactus:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--semi-light-grey);
+  transform: skewY(4deg);
+  
 }
 
 #contactus h1{
@@ -322,46 +355,15 @@ h1.work{
     text-align: center;
 }
 
-#contactusform{
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 31px;
-    padding: 50px;
-    margin-bottom: 20px;
-    background-color: var(--dark-grey);
-    color: var(--semi-light-grey);
-}
 
-.buttonsend {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 31px;
-    border: none;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px 60px 2px;
-  letter-spacing: 0.02em;
-  transition-duration: 0.4s;
-  cursor: pointer;
-    background-color: var(--semi-light-grey);
-    color: black;
-    border: 5px solid var(--dark-grey);
 
-  }
-  
-.buttonsend:hover {
-    background-color: #555555;
-    color: var(--semi-light-grey);
-  }
 /* End Contact Us */
 
 /* Footer */
 footer{
     background-color: var(--dark-grey);
-    padding-top: 60px;
+    padding-top: 14vh;
+    margin-top: -7vh;
 }
 
 footer img{
