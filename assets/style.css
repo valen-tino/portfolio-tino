@@ -221,11 +221,15 @@ p.mydescription{
     color: var(--white);
 }
 
+.kartu img{
+  padding: 20px 0px 20px 0px;
+}
+
 .chart {
     display: table;
     table-layout: auto;
     width: 100%;
-    height: 350px;
+    height: 93%;
   }
 
   .chart li {

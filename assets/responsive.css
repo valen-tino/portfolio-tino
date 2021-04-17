@@ -136,6 +136,11 @@
         padding-bottom: 30px;
     }
 
+    .chart{
+      height: 20vh;
+      width: 100%;
+    }
+
     .html, .css , .js , .mysqli , .figma , .bootstrap{
         font-size: small;
     }
