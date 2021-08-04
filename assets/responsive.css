@@ -44,6 +44,7 @@
 
   img.work{
     height: 380px;
+    width: 100%;
 }
   .html, .css , .js , .mysqli , .figma , .bootstrap{
     font-size: small;
@@ -151,7 +152,9 @@
         font-size: small;
     }
     img.work{
-        height: 200px;
+        height: 300px;
+        width: 100%;
+        
     }
 
   

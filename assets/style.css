@@ -352,6 +352,14 @@ p.mydescription{
     padding-bottom: 16vh;
 }
 
+a.work{
+  padding: 0 10px 0 10px;
+  background-color: var(--white);
+  color: var(--dark-grey);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 h1.work{
     font-size: 48px;
     padding: 100px 0px 60px 0px;
