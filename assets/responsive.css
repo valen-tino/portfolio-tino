@@ -4,6 +4,11 @@
       height: 100vh;
     }
 
+    img.logos{
+      padding: 10px 10px 30px 10px !important;
+      height: 120px !important;
+  }
+
   }
   
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -46,8 +51,9 @@
     height: 380px;
     width: 100%;
 }
-  .html, .css , .js , .mysqli , .figma , .bootstrap{
-    font-size: small;
+  img.logos{
+    padding: 10px 10px 30px 10px !important;
+    height: 100px;
 }
   
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
