@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Tino - Portfolio</title>
     <!-- CSS only -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 </head>
@@ -34,7 +35,7 @@
                                 <a class="nav-link" href="#work" data-aos="fade-down"  data-aos-duration="800">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contactus" data-aos="fade-down"  data-aos-duration="900">Contact</a>
+                                <a class="nav-link" href="#contactus" data-aos="fade-down"  data-aos-duration="900">Contact Us</a>
                             </li>
                             <li class="nav-item cv-btn">
                                 <a class="nav-link" href="https://drive.google.com/file/d/1iL7Ttj-gaUx_smQ8OtHztU0YUV_xKUBX/view?usp=sharing" data-aos="fade-down"  data-aos-duration="900">Download CV</a>
@@ -85,7 +86,7 @@
                         <div class="col-sm">
                     <p class="mydescription" data-aos="fade-up">Well, name’s Valentino Yudhistira Jehaut a.k.a Tino. and nice to know you!<br><br>
                     
-                        I’m 18 years old and currently living in Bali, Indonesia. I just graduated from SMK TI Bali Global Denpasar majoring in Software Engineering and currently studying in STIKOM Bali taking a major in Computer Science.<br><br>
+                        I’m 18 years old and currently living in Bali, Indonesia. I just graduated from SMK TI Bali Global Denpasar majoring in Software Engineering and currently studying in ITB STIKOM Bali taking a major in Information Systems.<br><br>
                         
                         I’ve had experience as a web developer for 2 years now. At that time, I also worked as an Intern at PT. Kriya Jaya International as a Full-Stack Web Developer for 3 months. And then, i also got an official certificate as Junior Web Programmer from BDI (government-owned). Last thing, I also got a <a href="https://www.freecodecamp.org/certification/fcc76f87320-7bc7-4c92-a254-b90dd69e3934/responsive-web-design" target="_blank">certificate from FreeCodeCamp in Responsive Web Design.</a><br><br>
                         
@@ -98,89 +99,162 @@
                     <img src="https://i.ibb.co/r5zgVvc/129531070-1260383411027923-7688534025209930704-n.jpg" alt="valentino" class="myface" data-aos="fade-up">
                 </div>
             </div>
+            <!-- Tab Skills, Education & Experience -->
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="true"><h2 data-aos="fade-up">My Skills</h2></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="false"><h2 data-aos="fade-up">Education</h2></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="false"><h2 data-aos="fade-up">Experience</h2></button>
+                </li>
+            </ul>
+              <br>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h1 data-aos="fade-up">My Skills</h1>
+                        </div>
+                        <br><br><br><br>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div>
+                                <div class="row">
+                                  <div class="col-md-6" data-aos="fade-up" data-aos-duration="600">
+                                    <div class="card kartu">
+                                        <div class="card-body">
+                                            <img src="assets/icons/cellphonelink.svg" alt="responsive"><br>
+                                          <h5 class="card-title">Responsive<br>Website</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6" data-aos="fade-up" data-aos-duration="700">
+                                    <div class="card kartu">
+                                        <div class="card-body">
+                                            <img src="assets/icons/rocket.svg" alt="Dynamic"><br>
+                                          <h5 class="card-title">Dynamic<br>Website</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                                    <div class="card kartu">
+                                        <div class="card-body">
+                                            <img src="assets/icons/bulb.svg" alt="Intuitive"><br>
+                                          <h5 class="card-title">Intuitive<br>Design</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6" data-aos="fade-up" data-aos-duration="900">
+                                    <div class="card kartu">
+                                        <div class="card-body">
+                                            <img src="assets/icons/speedo.svg" alt="Fast"><br>
+                                          <h5 class="card-title">Fast<br>Performance</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-up">
+                            <div class="text-center" id="brands">
+                                <div class="row logos">
+                                    <div class="col" data-aos="fade-up" data-aos-duration="600"><img src="assets/logo/html5.svg" alt="html"></div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="700"><img src="assets/logo/css3.svg" alt="css3"></div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="800"><img src="assets/logo/js.svg" alt="javascript"></div>
+                                </div>
+                                <div class="row logos">
+                                    <div class="col" data-aos="fade-up" data-aos-duration="900"><img src="assets/logo/mysql.svg" alt="mysql"></div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="1000"><img src="assets/logo/figma.svg" alt="figma"></div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="1100"><img src="assets/logo/bootstrap.svg" alt="bootstrap"></div>
+                                </div>
+                                <div class="row logos">
+                                    <div class="col" data-aos="fade-up" data-aos-duration="1200"><img src="assets/logo/php.svg" alt="php"></div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="1300"><img src="assets/logo/wordpress.svg" alt="wordpress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                    <!-- Brand Logos -->
+                    
+                </div>
+                <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h1 data-aos="fade-up">Education</h1>
+                        </div>
+                        <br><br><br><br>
+                    </div>
+                    <div class="container text-center">
+                            <article>
+                                <div class="text">
+                                 <h1>July 2015 - June 2018<br>SMP Cipta Dharma</h1>
+                                </div>
+                            </article>
+                                    
+                            <article>
+                                <div class="text">
+                                 <h1>July 2018 - March 2021<br>SMK TI Bali Global Denpasar</h1>
+                                 <p>Majoring in Software Engineering</p>
+                                </div>
+                            </article>
+                            <br><br><br><br>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h1 data-aos="fade-up">Experience</h1>
+                        </div>
+                        <br><br><br><br>
+                    </div>
+                    <div class="container text-center">
+                        <article>
+                            <div class="text">
+                             <h1>January 2020 - March 2020<br>PT Kriya Jaya Internasional</h1>
+                             <h3>Internship | Web Developer | 3 Months</h3>
+                             <p>
+                                 <ul>
+                                     <li>Tasked to make a web-based inventory system using native php.</li>
+                                     <li>Helping other interns while working on the project.</li>
+                                     <li>Organization of files.</li>
+                                 </ul>
+                             </p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="text">
+                             <h1>February - March 2021<br>Balai Diklat Industri</h1>
+                             <h3>Traning Course | Junior Web Programmer | 1 Month</h3>
+                             <p>Tasked to make a dynamic website for a client which includes its own CMS using native php.</p>
+                            </div>
+                        </article>
+                                
+                        <article>
+                            <div class="text">
+                             <h1>December 2020 - March 2021<br> <i class="fa fa-free-code-camp" aria-hidden="true"></i> Free Code Camp</h1>
+                             <h3>Training Course | Responsive Web Design</h3>
+                             <br>
+                             <a class="common-button" href="https://drive.google.com/file/d/1iL7Ttj-gaUx_smQ8OtHztU0YUV_xKUBX/view?usp=sharing" data-aos="fade-down">
+                                <i class="fa fa-certificate" aria-hidden="true"></i> Certificate Link
+                             </a>                            
+                        </div>
+                        </article>
+                        <br><br><br><br>
+
+                </div>
+                </div>
+              </div>
             <!-- My Skills -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 data-aos="fade-up">My Skills</h1>
-                </div>
-                <br><br><br><br>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div>
-                        <div class="row">
-                          <div class="col-md-6" data-aos="fade-up">
-                            <div class="card kartu">
-                                <div class="card-body">
-                                    <img src="assets/icons/cellphonelink.svg" alt="responsive"><br>
-                                  <h5 class="card-title">Responsive<br>Website</h5>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="col-md-6" data-aos="fade-up">
-                            <div class="card kartu">
-                                <div class="card-body">
-                                    <img src="assets/icons/rocket.svg" alt="Dynamic"><br>
-                                  <h5 class="card-title">Dynamic<br>Website</h5>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-6" data-aos="fade-up">
-                            <div class="card kartu">
-                                <div class="card-body">
-                                    <img src="assets/icons/bulb.svg" alt="Intuitive"><br>
-                                  <h5 class="card-title">Intuitive<br>Design</h5>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="col-md-6" data-aos="fade-up">
-                            <div class="card kartu">
-                                <div class="card-body">
-                                    <img src="assets/icons/speedo.svg" alt="Fast"><br>
-                                  <h5 class="card-title">Fast<br>Performance</h5>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up">
-                    <ul class="chart">
-                        <li>
-                          <span style="height:98%" title="HTML" class="html"></span>
-                        </li>
-                        <li>
-                          <span style="height:86%" title="CSS" class="css"></span>
-                        </li>
-                        <li>
-                          <span style="height:70%" title="Java
-                                                                Script" class="js"></span>
-                        </li>
-                        <li>
-                          <span style="height:63%" title="Mysql" class="mysql"></span>
-                        </li>
-                        <li>
-                            <span style="height:85%" title="Figma" class="figma"></span>
-                        </li>
-                        <li>
-                            <span style="height:80%" title="Bootstrap" class="bootstrap"></span>
-                        </li>
-                      </ul>    
-                </div>
-            </div>
-            <!-- Brand Logos -->
-            <div class="text-center" id="brands">
-                <div class="row logos">
-                    <div class="col" data-aos="fade-up" data-aos-duration="600"><img src="assets/logo/html5.svg" alt="html"></div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="700"><img src="assets/logo/css3.svg" alt="css3"></div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="800"><img src="assets/logo/js.svg" alt="javascript"></div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="900"><img src="assets/logo/mysql.svg" alt="mysql"></div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="1000"><img src="assets/logo/figma.svg" alt="figma"></div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="1100"><img src="assets/logo/bootstrap.svg" alt="bootstrap"></div>
-                </div>
-            </div>
+            
 
             </div>
         </div>
@@ -241,7 +315,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 data-aos="fade-down">Contact Me</h1>
-                    <h4 class="card-subtitle text-muted" data-aos="fade-down" data-aos-duration="700"> Feel free to contact!</h4>
+                    <h4 class="card-subtitle text-muted" data-aos="fade-down" data-aos-duration="700"> Feel free to reach out anytime!</h4>
                 </div>
             </div>
             <div class="row">
@@ -264,7 +338,7 @@
                         <div class="col-md-3"><a class="nav-link" href="#welcome-screen"  data-aos="fade-up">Home</a></div>
                         <div class="col-md-3"><a class="nav-link" href="#about-me"  data-aos="fade-up" data-aos-duration="600">About Me</a></div>
                         <div class="col-md-3"><a class="nav-link" href="#work"  data-aos="fade-up" data-aos-duration="700">Portfolio</a></div>
-                        <div class="col-md-3"><a class="nav-link" href="#contactus"  data-aos="fade-up" data-aos-duration="800">Contact</a></div>
+                        <div class="col-md-3"><a class="nav-link" href="#experienceus"  data-aos="fade-up" data-aos-duration="800">Contact Us</a></div>
                     </div>  
                 </div>
             </div>
@@ -274,11 +348,12 @@
                 </div>
             </div>
             <div class="row justify-content-center text-center">
-                <div class="col-sm-3"><a class="nav-link" href="https://www.instagram.com/tino.2093" ><i class="bi bi-instagram"></i>  tino.2089</a></div>
+                <div class="col-sm-3"><a class="nav-link" href="https://www.instagram.com/valen.vaze" ><i class="bi bi-instagram"></i>  valen.vaze</a></div>
                 <div class="col-sm-3"><a class="nav-link" href="mailto:jehaut23@gmail.com"><i class="bi bi-envelope"></i>  jehaut23@gmail.com</a></div>
                 <div class="col-sm-3"><a class="nav-link" href="https://codepen.io/vaze2077"><i class="bi bi-code-slash"></i> vaze2077</a></div>
                 <div class="col-sm-3"><a class="nav-link" href="https://github.com/valen-tino"><i class="bi bi-github"></i> valen-tino</a></div>
             </div>
+            <br>
             <div class="row justify-content-center text-center">
                 <div class="col-md-12" id="ending">Made with ❤ from Indonesia</div>
             </div>

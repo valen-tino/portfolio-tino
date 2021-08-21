@@ -147,6 +147,7 @@ p {
   width: auto;
   position: relative;
 }
+
 .cv-btn::after {
   content: "";
   position: absolute;
@@ -207,6 +208,54 @@ p {
 /* End Welcome Screen */
 
 /* About Me */
+
+.nav-tabs {
+  border: 0;
+  
+}
+
+.nav-tabs:not(.nav-tabs-neutral)>.nav-item>.nav-link.active {
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.nav-tabs>.nav-item>.nav-link {
+  color: var(--dark-grey) !important;
+  margin: 5px 25px 5px 25px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 11px 23px;
+  line-height: 1.5;
+}
+
+.nav-tabs>.nav-item>.nav-link:hover {
+  background-color: transparent;
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+  background-color: var(--dark-grey);
+  border-radius: 30px;
+  color: var(--white) !important;
+}
+
+.common-button{
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+  background-color: var(--dark-grey);
+  border-radius: 30px;
+  color: var(--white) !important;
+}
+
+article{
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 #about-me {
   position: relative;
   width: 100%;
@@ -260,74 +309,9 @@ p.mydescription{
   padding: 20px 0px 20px 0px;
 }
 
-.chart {
-    display: table;
-    table-layout: auto;
-    width: 100%;
-    height: 93%;
-  }
-
-  .chart li {
-    position: relative;
-    display: table-cell;
-    vertical-align: bottom;
-    height: 100px;
-  }
-
-  .html{
-    margin: 0 20px;
-    display: block;
-    background: var(--red);
-    animation: draw 1s ease-in-out;
-  }
-
-  .css{
-    margin: 0 20px;
-    display: block;
-    background: var(--blue);
-    animation: draw 1s ease-in-out;
-  }
-
-  .js{
-    margin: 0 20px;
-    display: block;
-    background: var(--yellow);
-    animation: draw 1s ease-in-out;
-  }
-
-  .mysql{
-    margin: 0 20px;
-    display: block;
-    background: var(--gold);
-    animation: draw 1s ease-in-out;
-  }
-
-  .figma{
-    margin: 0 20px;
-    display: block;
-    background: var(--green);
-    animation: draw 1s ease-in-out;
-  }
-
-  .bootstrap{
-    margin: 0 20px;
-    display: block;
-    background: var(--purple);
-    animation: draw 1s ease-in-out;
-  }
-
-  .chart span:before {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
-    padding: 5px 20px 0;
-    display: block;
-    text-align: center;
-    content: attr(title);
-    word-wrap: break-word;
-  }
   
+
+
   @keyframes draw {
     0% {
       height: 0;
