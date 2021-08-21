@@ -119,21 +119,22 @@ p {
 }
 
 .navbar-toggler{
+  margin-top: 0;
   margin-right: 50px;
 }
 
 .shrink {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  max-height: 100px !important;
+  max-height: 120px !important;
 }
 
 .shrink .navbar-brand{
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 0 0px;
 }
 
 .shrink .navbar-toggler{
-  margin-right: 0px;
+  margin-right: 10px;
 }
 
 .cv-btn {
