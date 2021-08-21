@@ -247,10 +247,25 @@ p {
 .common-button{
   text-decoration: none;
   padding: 10px 15px 10px 15px;
-  border-radius: 30px;
   background-color: var(--dark-grey);
   border-radius: 30px;
+    cursor: pointer;
   color: var(--white) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.common-button:hover{
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.common-button, .common-button:focus, .common-button:active{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 article{
