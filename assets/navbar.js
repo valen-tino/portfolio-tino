@@ -7,15 +7,3 @@
   })
   })()
 
-// Activate Shrink Navbar
-var nav = document.querySelector('nav');
-
-window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 500) {
-    nav.classList.add('bg-dark', 'shadow');
-    nav.classList.add('shrink');
-  } else {
-    nav.classList.remove('bg-dark', 'shadow');
-    nav.classList.remove('shrink');
-  }
-});
