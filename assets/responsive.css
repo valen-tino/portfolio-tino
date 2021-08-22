@@ -62,10 +62,7 @@
       line-height: 65px;
     }
 
-    img.work{
-        height: 300px;
-        
-    }
+    
 
   }
   
@@ -79,10 +76,7 @@
         display: none;
     }
 
-    img.work{
-        height: 470px;
-    }
-
+  
     h1.mytitle{
         padding-top: 8vh;
         padding-bottom: 6vh;
@@ -99,10 +93,6 @@
 
     img.myface{
         display: none;
-    }
-
-    img.work{
-        height: 300px;
     }
 
     h1.mytitle{
@@ -130,9 +120,6 @@
         display: none;
     }
 
-    img.work{
-        height: 350px;
-    }
 
     h1.mytitle{
         padding-top: 8vh;
@@ -159,11 +146,7 @@
     .html, .css , .js , .mysqli , .figma , .bootstrap{
         font-size: small;
     }
-    img.work{
-        height: 300px;
-        width: 100%;
-        
-    }
+  
 
   
   }

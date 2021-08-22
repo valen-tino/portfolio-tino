@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/modal.css">
     <link rel="stylesheet" href="assets/responsive.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Valentino - Portfolio</title>
@@ -186,26 +187,26 @@
                 <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
                     <br>
                     <div class="container text-center">
-                            <article>
+                            <article data-aos="fade-up">
                                 <div class="text">
                                 <h2>July 2009 - June 2015<br>SD Bali Public School</h2>
                                 </div>
                             </article>
 
-                            <article>
+                            <article data-aos="fade-up">
                                 <div class="text">
                                  <h2>July 2015 - June 2018<br>SMP Cipta Dharma</h2>
                                 </div>
-                            </article>
+                            </article data-aos="fade-up">
                                     
-                            <article>
+                            <article data-aos="fade-up">
                                 <div class="text">
                                  <h2>July 2018 - March 2021<br>SMK TI Bali Global Denpasar</h2>
                                  <p>Majoring in Software Engineering</p>
                                 </div>
                             </article>
 
-                            <article>
+                            <article data-aos="fade-up">
                                 <div class="text">
                                  <h2>July 2021 - Present<br>ITB Stikom Bali</h2>
                                  <p>Majoring in Information System & Information Technology (Dual Degree)</p>
@@ -219,7 +220,7 @@
                 <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                     <br>
                     <div class="container text-center">
-                        <article>
+                        <article data-aos="fade-up"> 
                             <div class="text">
                              <h2>January 2020 - March 2020<br>PT Kriya Jaya Internasional</h2>
                              <h3>Internship | Web Developer | 3 Months</h3>
@@ -235,7 +236,7 @@
                             </div>
                         </article>
                         <br><br>
-                        <article>
+                        <article data-aos="fade-up">
                             <div class="text">
                              <h2>December 2020 - March 2021<br>Free Code Camp</h2>
                              <h3>Training Course | Responsive Web Design | 4 Months</h3>
@@ -246,7 +247,7 @@
                         </div>
                         </article>
                         <br><br>
-                        <article>
+                        <article data-aos="fade-up">
                             <div class="text">
                              <h2>February - March 2021<br>Balai Diklat Industri</h2>
                              <h3>Traning Course | Junior Web Programmer | 1 Month</h3>
@@ -255,8 +256,6 @@
                              <a class="common-button" href="https://drive.google.com/file/d/1qR-Dui8NPOUBRr6paeqU6z30jitwyNwd/view?usp=sharing" data-aos="fade-down" target="_blank">
                                 <i class="fa fa-certificate" aria-hidden="true"></i>&nbsp;&nbsp;Certificate Link
                              </a> 
-                             
-                             
                             </div>
                         </article>
                         <br><br>
@@ -276,50 +275,113 @@
 
     <section id="work">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="work" data-aos="fade-up">My <span
-                        class="txt-rotate"
-                        data-period="1500"
-                        data-rotate='[ "Portfolios", "Works"]'>
-                    </span></h1>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="col-md">
-                        <img src="assets/pictures/majesalon.png" alt="majesalon" class="work" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="work" data-aos="fade-up">My <span
+                            class="txt-rotate"
+                            data-period="1500"
+                            data-rotate='[ "Portfolios", "Works"]'>
+                        </span></h1>
                     </div>
-                    <div class="col-md">
-                    <h2 id="work-title2" data-aos="fade-up">Maje Salon  <a href="https://mayasalon.baliconnectionservices.com/" class="btn">
-                        <i class="bi bi-link-45deg"></i>
-                    </a></h2>
-                   
-                   
-                    <p id="work-desc" data-aos="fade-up">Starting in 2017, Maje Salon is a small woman-only salon based in Denpasar, Bali. <br>
+                </div>
 
-                        Their services includes Hair Mask, Hair Cutting, Facial, Tradisional Creambath, and etc. <br><br>
-                        
-                        I make this as a final project for getting a certificate in Junior Web Programmer at <a class="work" href="https://bdidenpasar.kemenperin.go.id/">Balai Dikat Industri</a>. I use <a class="work" href="https://www.figma.com/">Figma</a> to design the UI/UX, <a class="work" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a> as my main frontend library, and Native PHP for the backend.</p>
+                <div class="row">
+                    <!-- Gallery item -->
+                    <div class="col-xl-6 col-lg-4 col-md-6 mb-4">
+                    <div class="bg-white rounded shadow-sm"><img src="assets/pictures/bcs.png" alt="" class="img-fluid card-img-top">
+                        <div class="p-4">
+                        <h5> <a href="https://baliconnectionservices.com" class="text-dark" target="_blank" rel="noopener noreferrer">Bali Connection Service</a></h5>
+                        <p class="small mb-0">
+                            Bali Connection Service (BCS) was first built in 2005 which provides help for local and expatriate community in 
+                            Indonesia in assisting all types of travel documents including visas abroad and permit in Bali/Indonesia.<br><br>
+                            I make this website for my client who wants to revamp his old website to a mobile-friendly responsive website. 
+                            I use <a class="work" href="https://www.figma.com/">Figma</a> to design the UI/UX, 
+                            <a class="work" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a> 
+                            as my main frontend library, and Native PHP for the backend.
+                               
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                            <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">Native PHP</span></p>
+                            <div class="badge bg-dark px-3 rounded-pill font-weight-normal"><a href="https://baliconnectionservices.com" target="_blank" rel="noopener noreferrer" style="color: white;"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+                        </div>
+                        </div>
                     </div>
+                    </div>
+                    <!-- End -->
+            
+                    <!-- Gallery item -->
+                    <div class="col-xl-6 col-lg-4 col-md-6 mb-4">
+                    <div class="bg-white rounded shadow-sm"><img src="assets/pictures/majesalon.png" alt="" class="img-fluid card-img-top">
+                        <div class="p-4">
+                        <h5> <a href="https://mayasalon.baliconnectionservices.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Maje Salon</a></h5>
+                        <p class="small mb-0">
+                            Starting in 2017, Maje Salon is a small woman-only salon based in Denpasar, Bali.
+                            Their services includes Hair Mask, Hair Cutting, Facial, Tradisional Creambath, and etc. <br><br>
+
+                            I make this as a final project for getting a certificate in Junior Web Programmer at 
+                            <a class="work" href="https://bdidenpasar.kemenperin.go.id/">Balai Dikat Industri</a>. 
+                            I use <a class="work" href="https://www.figma.com/">Figma</a> to design the UI/UX, 
+                            <a class="work" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a> 
+                            as my main frontend library, and Native PHP for the backend.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                            <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">Native PHP</span></p>
+                            <div class="badge bg-dark px-3 rounded-pill font-weight-normal"><a href="https://mayasalon.baliconnectionservices.com/" style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- End -->
+            
+                    <!-- Gallery item -->
+                    <div class="col-xl-6 col-lg-4 col-md-6 mb-4">
+                    <div class="bg-white rounded shadow-sm"><img src="assets/pictures/starsea.png" alt="" class="img-fluid card-img-top">
+                        <div class="p-4">
+                        <h5> <a href="https://starsea.id/" class="text-dark" target="_blank" rel="noopener noreferrer">Star Sea</a></h5>
+                        <p class="small mb-0">My client wants to have a product showcase website for their brand and their products and also using Whatsapp as the preferred payment method.<br><br> 
+                                                            I use <a class="work" target="_blank" rel="noopener noreferrer" href="https://www.figma.com/">Figma</a> to design the UI/UX, and using <a class="work" href="https://www.wordpress.com/">Wordpress</a> CMS as both the frontend (Elementor) and the backend</p>
+                        <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                            <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">Wordpress</span></p>
+                            <div class="badge bg-dark px-3 rounded-pill font-weight-normal text-white"><a href="https://starsea.id/" style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- End -->
+            
+                    <!-- Gallery item -->
+                    <div class="col-xl-6 col-lg-4 col-md-6 mb-4">
+                    <div class="bg-white rounded shadow-sm"><img src="assets/pictures/balimountain.png" alt="" class="img-fluid card-img-top">
+                        <div class="p-4">
+                        <h5> <a href="https://balimountainretreat.com/" class="text-dark" target="_blank" rel="noopener noreferrer">Bali Mountain Retreat</a></h5>
+                        <p class="small mb-0"></p>
+                        <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                            <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">Wordpress</span></p>
+                            <div class="badge bg-dark px-3 rounded-pill font-weight-normal"><a href="https://balimountainretreat.com/" style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- End -->
+
+                    <!-- Gallery item -->
+                    <div class="col-xl-6 col-lg-4 col-md-6 mb-4">
+                        <div class="bg-white rounded shadow-sm"><img src="assets/pictures/portfoliowebsite.png" alt="" class="img-fluid card-img-top">
+                            <div class="p-4">
+                            <h5> <a href="https://balimountainretreat.com/" class="text-dark" target="_blank" rel="noopener noreferrer">My Portfolio Website</a></h5>
+                            <p class="small mb-0">I've made this portfolio website a while ago, and i listed things about me, my education history, my work history, and things that i've worked on.<br><br>
+                                I use <a class="work" target="_blank" rel="noopener noreferrer" href="https://www.figma.com/">Figma</a> to design the UI/UX, and using just Html, Css and Js for the frontend and using Git <a class="work" target="_blank" rel="noopener noreferrer" href="https://github.com/valen-tino">( Github )</a> to update changes to the website easily and to maintain version records.</p>
+                            </p>
+                            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">HTML + Git Version Control (Github)</span></p>
+                                <div class="badge bg-dark px-3 rounded-pill font-weight-normal"><a href="https://balimountainretreat.com/" style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- End -->
+
                 </div>
-                
-                <div class="col-lg-6">
-                    <div class="col-md">
-                        <img src="assets/pictures/bcs.png" alt="majesalon" class="work" data-aos="fade-up">
-                    </div>
-                    <div class="col-md">
-                        <h2 id="work-title2" data-aos="fade-up">Bali Connection Services <a href="https://baliconnectionservices.com" class="btn">
-                            <i class="bi bi-link-45deg"></i>
-                        </a></h2>
-                        
-                        <p id="work-desc" data-aos="fade-up">Bali Connection Service (BCS) was first built in 2005 which provides help for local and expatriate community in Indonesia in assisting all types of travel documents including visas abroad and permit in Bali/Indonesia.<br><br>
-                            I make this website for my client who wants to revamp his old website to a mobile-friendly responsive website. I use <a class="work" href="https://www.figma.com/">Figma</a> to design the UI/UX, <a class="work" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a> as my main frontend library, and Native PHP for the backend.
-                               </p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -378,77 +440,7 @@
 <script type="text/javascript" src="https://app.99inbound.com/99inbound.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script> AOS.init(); </script>
-<script type="text/javascript">
-// Auto Typer
-var TxtRotate = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
-TxtRotate.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-  var that = this;
-  var delta = 300 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
-};
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    var nav = document.querySelector('nav');
-
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 500) {
-        nav.classList.add('bg-dark', 'shadow');
-        nav.classList.add('shrink');
-      } else {
-        nav.classList.remove('bg-dark', 'shadow');
-        nav.classList.remove('shrink');
-      }
-    });
-  </script>
+<script src="assets/autotyper.js" type="text/javascript"></script>
 </body>
 </html>
