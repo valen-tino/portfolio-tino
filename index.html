@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/modal.css">
     <link rel="stylesheet" href="assets/responsive.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Valentino - Portfolio</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -20,12 +19,12 @@
         <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation" id="primary-nav">
                 <div class="container">
                     <img class="navbar-brand" src="assets/logo/tinologo.svg" alt="tino" height="100px" data-aos="fade-down">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation" data-aos="fade-down"  data-aos-duration="600">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation" data-aos="fade-down" data-aos-duration="600">
                         <a style="color: white;"><img src="assets/icons/list.svg"></a>
                     </button>
-
                     <div class="navbar-collapse offcanvas-collapse" id="navbar">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#welcome-screen" data-aos="fade-down"  data-aos-duration="600">Home</a>
                             </li>
@@ -78,31 +77,33 @@
             <!-- About Me -->
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg 12">
-                            <h1 class="mytitle" data-aos="fade-up">Let me tell a little bit about myself...</h1>
-                        </div>
+                    <div class="col-sm">
+                        <h1 class="mytitle" data-aos="fade-up">Let me tell a little bit about myself...</h1>
                     </div>
-                    <div class="row">
-                        <div class="col-sm">
-                    <p class="mydescription" data-aos="fade-up">Well, name’s Valentino Yudhistira Jehaut (Valen) and nice to know you!<br><br>
-                    
-                        I’m 18 years old now and currently living in Bali, Indonesia. I just graduated from SMK TI Bali Global Denpasar majoring in Software Engineering and currently studying in ITB STIKOM Bali taking a major in Information Systems & Information Technology (Dual Degree)<br><br>
-                        
-                        I’ve had experience as a web developer for 2 years now. At that time, I also worked as an Intern at PT. Kriya Jaya International as a Web Developer for 3 months. And then, I also got an official certificate as Junior Web Programmer from BDI (government-owned). Last thing, I also got a <a href="https://www.freecodecamp.org/certification/fcc76f87320-7bc7-4c92-a254-b90dd69e3934/responsive-web-design" target="_blank">certificate from FreeCodeCamp in Responsive Web Design.</a> and successful make couple of websites. <br>
-                        
-                        <br><a class="common-button" href="#work" data-aos="fade-down">
-                            See My Portfolios!
-                         </a><br><br>
-                        </p>
+
+                    <div class="col-sm">
+                            <p class="mydescription" data-aos="fade-up">Well, name’s Valentino Yudhistira Jehaut (Valen) and nice to know you!<br><br>
+                            
+                                I’m 18 years old now and currently living in Bali, Indonesia. I just graduated from SMK TI Bali Global Denpasar majoring in Software Engineering and currently studying in ITB STIKOM Bali taking a major in Information Systems & Information Technology (Dual Degree)<br><br>
+                                
+                                I’ve had experience as a web developer for 2 years now. At that time, I also worked as an Intern at PT. Kriya Jaya International as a Web Developer for 3 months. And then, I also got an official certificate as Junior Web Programmer from BDI (government-owned). Last thing, I also got a <a href="https://www.freecodecamp.org/certification/fcc76f87320-7bc7-4c92-a254-b90dd69e3934/responsive-web-design" target="_blank">certificate from FreeCodeCamp in Responsive Web Design.</a> and successful make couple of websites. <br>
+                                
+                                <br><a class="common-button" href="#work" data-aos="fade-down">
+                                    See My Portfolios!
+                                </a>
+                            </p>
                     </div>
-                    
-                    </div>
+                      
                 </div>
-                <div class="col-sm">
-                    <img src="https://i.ibb.co/r5zgVvc/129531070-1260383411027923-7688534025209930704-n.jpg" alt="valentino" class="myface" data-aos="fade-up">
+
+                <div class="col-lg-6">
+                    <figure>
+                        <img src="assets/pictures/myface.jpeg" alt="valentino" class="myface" data-aos="fade-up">
+                    </figure>
                 </div>
+
             </div>
+            <br>
             <!-- Tab Skills, Education & Experience -->
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation" data-aos="fade-up">
@@ -435,12 +436,13 @@
             </div>
          </div>
     </footer>
+
 <!-- Scripts -->
 <script src="assets/navbar.js"></script>
 <script type="text/javascript" src="https://app.99inbound.com/99inbound.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script> AOS.init(); </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="assets/autotyper.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
@@ -459,5 +461,6 @@ window.addEventListener('scroll', function () {
   }
 });
 </script>
+
 </body>
 </html>

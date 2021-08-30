@@ -40,12 +40,6 @@
     margin-top: 15px;
   }
 
-  img.myface{
-    height: 685px;
-    padding:50px 0px 50px 110px;
-    vertical-align: middle;
-    align-content: center;
-}
 
   img.work{
     height: 380px;
@@ -76,6 +70,11 @@
         display: none;
     }
 
+    figure{
+      display: none;
+
+    }
+
   
     h1.mytitle{
         padding-top: 8vh;
@@ -93,6 +92,11 @@
 
     img.myface{
         display: none;
+    }
+
+    figure{
+      display: none;
+
     }
 
     h1.mytitle{
@@ -120,6 +124,10 @@
         display: none;
     }
 
+    figure{
+      display: none;
+
+    }
 
     h1.mytitle{
         padding-top: 8vh;
@@ -131,22 +139,14 @@
         padding-bottom: 30px;
     }
 
+    
 
-    .chart{
-      height: 20vh;
-      width: 100%;
-    }
-
-    .html, .css , .js , .mysqli , .figma , .bootstrap{
-        font-size: small;
-    }
   }
 
   @media only screen and (max-width: 576px){
-    .html, .css , .js , .mysqli , .figma , .bootstrap{
-        font-size: small;
-    }
-  
+    figure{
+      display: none;
 
+    }
   
   }

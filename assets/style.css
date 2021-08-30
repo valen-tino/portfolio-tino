@@ -74,7 +74,7 @@ a:link {
 
     .offcanvas-collapse.open .nav-link {
       font-size: xx-large;
-      text-align: center;
+      text-align: right;
   }
     .offcanvas-collapse.open .nav-link:hover {
         background-color: var(--white);
@@ -97,12 +97,12 @@ a:link {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: var(--grey); 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: var(--dark-grey); 
 }
 /* End Scrollbar */
 
@@ -195,6 +195,7 @@ a:link {
     background-size: cover;
     padding-bottom: 10px;
     margin-bottom: -9vh;
+    z-index: 1;
 }
 
 .welcome-main {
@@ -251,7 +252,7 @@ a:link {
 
 .common-button{
   text-decoration: none;
-  padding: 10px 15px 10px 15px;
+  padding: 15px 30px 15px 30px;
   background-color: var(--dark-grey);
   border-radius: 30px;
   cursor: pointer;
@@ -284,7 +285,7 @@ ul {
 #about-me {
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   background-color: transparent;
 }
 
@@ -301,19 +302,37 @@ ul {
 }
 
 img.myface{
-    height: 100% !important;
-    width: 100%;
-    align-content: center;
+    padding: 10vh;
+}
+
+figure {
+  position: relative;
+  padding: 0;
+  height: 90vh;
+  width: 500px;
+}
+
+figure::after {
+  content: ' ';
+  position: absolute;
+  width: 37em;
+  top: 9vh;
+  left: 5em;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../assets/pictures/myface.jpeg);
+  background-size: 100% 100%;
+  filter: blur(15px) saturate(2); /* KEY */
 }
 
 h1.mytitle{
-    padding-top: 14vh;
-    padding-bottom: 6vh;
+    padding-top: 20vh;
+    padding-bottom: 3vh;
 }
 
 p.mydescription{
     font-size: 20px;
-    padding-bottom: 20px;
 }
 
 .square {
