@@ -1,9 +1,5 @@
-
 ---
 deployment:
-
- tasks:
- 
- - export DEPLOYPATH=/home/baliconn/valen.baliconnectionservices.com
- 
- - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
+  tasks:
+    - export DEPLOYPATH=/home/baliconn/valen.baliconnectionservices.com
+    - /bin/cp -r * $DEPLOYPATH
