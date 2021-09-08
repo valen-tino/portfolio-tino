@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/baliconn/valen.baliconnectionservices.com
+    - export DEPLOYPATH=/home/baliconn/valenjehaut.xyz
     - /bin/cp -r * $DEPLOYPATH
